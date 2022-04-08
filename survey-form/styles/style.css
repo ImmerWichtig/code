@@ -1,0 +1,43 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1649424973946-9808dd125e4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    background-color: rgba(252, 252, 252, 0.8);
+}
+
+.leftside-column {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    border-right: 2px solid red;
+    width: 400px;
+}
+
+.rightside-column {
+    text-align: justify;
+    padding: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}

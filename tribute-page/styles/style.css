@@ -15,7 +15,7 @@ main {
 header {
     background: url(https://media.nature.com/lw800/magazine-assets/d41586-019-03010-8/d41586-019-03010-8_17249392.jpg) no-repeat center top;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
+    -moz-background-esize: cover;
     -o-background-size: cover;
     background-size: cover;
     padding: 10%;

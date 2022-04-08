@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="header">Logo Here!</h1>
+    </header>
+    <div class="two-column"> 
+        <div class="leftside-column"> <!-- feedback and description -->
+            <h1 id="title">Please give us a feedback!</h1>
+            <p id="description">Your feedback will help us grow more! We will make sure that your feedback will not go to waste!</p>
+        </div>
+        <div class="rightside-column"> <!-- form -->
+            <form action="" id="survey-form">
+                <div class="form">
+                    <label id="name-label" for="name-label">Name:</label>
+                    <input type="text" name="name" id="name" required placeholder="Name, please!">
+                </div>
+                <div class="form">
+                    <label id="email-label" for="email-label">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="johndoe@whatever.com">
+                </div>
+                <div class="form">
+                    <label id="number-label" for="number-label">Age:</label>
+                    <input type="number" name="age" id="number" min="1" max="99" required placeholder="Age">
+                </div>
+                <div class="form">
+                    <label for="phonenumber">Phone Number <em>(optional)</em>:</label>
+                    <input type="tel" name="phonenumber" id="phonenumber">
+                </div>
+                <div class="form">
+                    <label for="gender"> What is your gender?: </label>
+                    <label for="male"><input type="radio" name="gender" id="male" checked value="male">Male</label>
+                    <label for="female"><input type="radio" name="gender" id="female" value="female">Female</label>
+                    <label for="agender"><input type="radio" name="gender" id="agender" value="agender">Agender</label>
+                    <label for="notsay"><input type="radio" name="gender" id="notsay" value="notsay">I prefer not to say</label>
+                   
+                </div>
+                <div class="form">
+                    <label for="hearusfromwhere"> Where did you hear us from?:</label>
+                        <select name="whereknow" id="dropdown" required>
+                            <option disabled selected value>Select an option!</option>
+                            <option value="google">Google</option>
+                            <option value="friend">Friends</option>
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="socials">Social Media (i.e. FB, IG, TikTok)</option>
+                        </select>
+                </div>
+                <div class="form">
+                    <label for="gamegenre">What game genre do you like?:
+                        <label for="rpg"><input type="checkbox" value="rpg">RPG</label>
+                        <label for="fps"><input type="checkbox" value="fps">FPS</label>
+                        <label for="tps"><input type="checkbox" value="tps">TPS</label>
+                        <label for="4x"><input type="checkbox" value="4x">4X</label>
+                        <label for="others"><input type="checkbox" value="others">Others</label>
+                    </label>
+                </div>
+                <div class="form">
+                    <label for="feedback">Write your feedback here...:</label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10" required>I am awesome!</textarea>
+                </div>
+                <div class="form">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
