@@ -1,0 +1,64 @@
+
+body {
+    background-image: linear-gradient(90deg, rgb(10, 208, 185), yellow, rgb(204, 204, 255));
+}
+main {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: url(https://media.nature.com/lw800/magazine-assets/d41586-019-03010-8/d41586-019-03010-8_17249392.jpg) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10%;
+}
+
+#title {
+    text-align: center;
+    text-shadow: red 2px 5px;
+    color:aliceblue;
+    font-size: 48pt;
+    font-style: italic;
+    padding-top: 2em;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    color: aliceblue;
+    text-shadow: green 2px 5px;;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    padding: 12px;
+}
+
+#image {
+    width: 20%;
+    display: block;
+    max-width: max-content;
+    margin: auto;
+}
+
+#short-intro {
+    padding: 40px;
+    font-size: 16pt;
+    text-align: center;
+}
+
