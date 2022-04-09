@@ -51,7 +51,7 @@ li {
 #hero {
     height: 100%;
     z-index: -2;
-    background-image: url(/product-landing-page/img/astronaut-head-pic.png);
+    background-image: url(https://raw.githubusercontent.com/ImmerWichtig/code/master/product-landing-page/img/astronaut-head-pic.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
