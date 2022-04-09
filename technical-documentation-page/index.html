@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page </title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header id="title-header"><h1>Augustus 3.0</h1></header>
+        <a href="#Getting_Started" class="nav-link">Getting Started</a>
+        <a href="#Configuration" class="nav-link">Configuration</a>
+        <a href="#Difficulty" class="nav-link">Difficulty</a>
+        <a href="#City_Management" class="nav-link">City Management</a>
+        <a href="#Augustus_3.0_Changelog" class="nav-link">Augustus 3.0 Changelog</a>
+    </nav>
+
+
+    <main id="main-doc">
+        <section class="main-section" id="Getting_Started">
+            <header>
+                <h2>Getting Started</h2>
+            </header>
+                <p>
+                    With the inclusion of all-new buildings and walkers, <strong>Augustus</strong> requires additional graphic files to be installed into your Caesar 3 directory on Windows. Without these files, your game will not be able to use our new assets, resulting in a glitched display.
+                </p>
+                <p>
+                    When obtaining the install files from GitHub, please ensure you download all available Augustus files for your chosen version of the mod. From Version 2.0.0 onwards, a full download for Windows should consist of 4 core files, as well as a single folder:
+                    <code>
+                        <ol>
+                            <li><strong>Augustus.exe</strong></li>
+                            <li><strong>3x library .dll files</strong></li>
+                        </ol>
+                    </code>
+                </p>
+                <p>
+                    Additionally, with these 4 files there will be an <strong>‘assets’</strong> folder (formerly <strong>'mods</strong>'). Whilst the .exe and .dll files can be extracted and run from anywhere on your computer, the assets folder MUST be extracted into your <strong>original Caesar 3 install location</strong>. The assets folder is essential so new graphical assets can be displayed in your game. If this folder is not found, the game will warn you on launch. 
+                </p>
+                <figure>
+                    <img src="/technical-documentation-page/img/c3_cities.png" alt="A bustling City in Rome">
+                    <figcaption>A bustiling city in Rome.</figcaption>
+                </figure>
+        </section>
+        <section class="main-section" id="Configuration">
+            <header><h2>Configuration</h2></header>
+            <p>
+                Augustus presents a number of configurable game options to tailor gameplay experience to personal tastes. The <strong>Options</strong> menu is accessed from either the main menu, or the options tab at the top of the screen, and contains hotkey, UI, difficulty, and gameplay settings. Language localizations can also be selected in the <strong>Options</strong> menu. Now the settings and the configurable options have been categorized into 4 different tabs, with the <strong>General Settings</strong> for sounds, localizations, and resolutions being on the first tab.
+            </p>
+            <figure>
+                <img src="/technical-documentation-page/img/c3_settings.png" alt="">
+                <figcaption>Augustus general settings UI.</figcaption>
+            </figure>
+        </section>
+        <section class="main-section" id="Difficulty">
+            <header>Difficulty</header>
+            <p>
+                Difficulty options are displayed on the third tab of the Options menu. In version 3.0, the vanilla game difficulty has been made into a scale on this option tab. The configurable options are:
+            </p>
+            <code>
+                <ul>
+                    <li>Enable god curses/blessings</li>
+                    <li>Disable jealousness of gods</li>
+                    <li>Enable global labour pool</li>
+                    <li>Change citizen retirement age from 50 to 60</li>
+                    <li>Fixed worker pool - 38% of plebian population</li>
+                </ul>
+            </code>
+        </section>
+        <section class="main-section" id="City_Management">
+            <header><h2>City Management</h2></header>
+            <p>
+                <strong>City Management</strong> options are displayed on the fourth tab of the Options menu. These options are:
+            </p>
+
+            <h3>Buying market ladies don't distribute goods</h3>
+
+            <p>
+                By default, market buyers also sell goods stocked in their market to any homes they pass while travelling to purchase more food and goods to sell. By preventing this, you can more tightly control the availability of foods and goods in various parts of the city. For example, a market buyer going to purchase wine may pass houses you do not want to be able to purchase wine. If you allow market buyers to also sell, then these houses will be able to buy wine from that market buyer, potentially triggering an unwanted evolution into patricians.
+            </p>
+
+            <h3>Cart pushers from getting granaries can go off road</h3>
+
+            <p>
+                Enables a cart pusher from a granary set to “get” a type of food to go off road to reach a granary set to “accept” that type of food and removes the need for a road connection between a granary set to “accept”
+                a type of food and another granary set to “get” that type of food. As with warehouses, they will get food from the nearest “accepting” granary and will ignore other “getting” granaries, even if they are nearer than the “accepting” granary.
+            </p>
+        </section>
+        <section class="main-section" id="Augustus_3.0_Changelog">
+            <header><h2>Augustus 3.0 Changelog</h2></header>
+            <code>
+                <ul>
+                    <p>Additions:</p>
+                    <li>Added tavern, a new entertainment building. Requires wine to work, provides extra entertainment with meat</li>
+                    <li>Added arena, a smaller version of colosseum.</li>
+                    <li>Added unused bird chirping ambient sound.</li>
+                </ul>
+            </code>
+        </section>
+    </main>
+</body>
+</html>
